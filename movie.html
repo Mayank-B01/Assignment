@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="movie.css">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .container1{
+            background-color:aqua
+        }
+        .container2{
+            background-color: darkgreen;
+        }
+        h1{
+            color:brown;
+            font-family:Fasthand;
+        }
+        #genre1{
+            background-color: cadetblue;
+        }
+        aside{
+            width:30%;
+            padding:15px;
+            margin:15px;
+            float: right;
+            font-style: italic;
+            font-weight:200;
+            background-color:burlywood
+        }
+        button{
+            margin:30px;
+            padding: 10px;
+            background-color: chartreuse;
+        }
+        button:hover{
+            background-color: chocolate;
+        }
+        input[type="text"]{
+            background-color:aqua
+        }
+        input:focus{
+            background-color: crimson;
+        }
+        header{
+            background-image: url("download.png");
+            height:200px;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Netflix></h1>
+        <nav>
+            <a href="#genre1">Home</a> |
+            <a href="">TV Series</a> |
+            <a href="">Movies</a> |
+            <a href="">Genre</a>
+        </nav>
+        <button style="color:brown">Login</button>
+    </header>
+    <section class="container1">
+        <h1>John Wick: Chapter 4</h1>
+        <p>John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.</p>
+        <img src="download.jpg" alt="Movie poster">
+    </section>
+    <aside id="genre1">
+        <h1>Genre</h1>
+        <p>Action</p>
+        <p>Crime</p>
+        <p>Thriller</p>
+    </aside>
+    <section class="container2">
+        <h1>Avatar: The Way of Water</h1>
+        <p>Jake Sully and Ney'tiri have formed a family and are doing everything to stay together. However, they must leave their home and explore the regions of Pandora. When an ancient threat resurfaces, Jake must fight a difficult war against the humans.</p>
+        <img src="download (1).jpg" alt="movie poster">
+    </section>
+    <aside>
+        <h1>Genre</h1>
+        <p>Action</p>
+        <p>Adventure</p>
+        <p>Science Fiction</p>
+    </aside>
+    <section>
+        <form>
+            <h1>Register form</h1>
+            <label>Username</label>
+            <input type="text" required>
+            <label>Password</label>
+            <input type="password">
+            <input type="submit" value="Register">
+            <button>Register</button>
+            <p>Have an account? <a href="">Login</a></p>
+        </form>
+    </section>
+
+    <footer>
+        <a href='https://www.imdb.com/'><img src="download.png" width="100px"></a>
+    </footer>
+</body>
+</html>
