@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex quo esse voluptatibus tempora et veritatis! Aliquam consequatur commodi quae aperiam necessitatibus fugit sit, voluptatibus praesentium! Libero, repellendus! Voluptatem, ab commodi.</p>
+    <p class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit illo omnis nemo voluptate illum magnam incidunt adipisci. Reiciendis magni debitis voluptas sapiente, nemo doloribus distinctio eaque, quidem deleniti, architecto id.</p>
+    <p class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, deleniti? Et possimus maxime pariatur tempora tempore asperiores eos, laborum nemo, earum adipisci ipsam iste perferendis. Quaerat ut eos excepturi quia.</p>
+    <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, fugiat modi architecto dolores quisquam dignissimos unde ad quos ipsa in atque nam! Expedita reprehenderit voluptatem quas quasi consequatur alias officia!</p>
+    <button onclick=handle()>Click me </button>
+    <script>
+        let p = document.querySelectorAll(".box");
+        console.log(p)
+        function handle(){
+            p.forEach((e)=> {
+                e.style.color = "red";
+            })
+        }    
+    </script>
+</body>
+</html>

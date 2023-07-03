@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste maiores assumenda tenetur placeat dicta accusamus ratione ea dolores dolorem illo! Quibusdam aliquam dolores culpa sequi laudantium cum saepe voluptas! Consectetur?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit laborum, unde, optio architecto vitae assumenda alias illum facere, voluptate impedit vel sed at sint porro dolorum rerum blanditiis numquam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ducimus sapiente eveniet rerum aperiam. Voluptatum architecto maiores illo totam laboriosam, rem hic amet. Consequuntur facere optio labore voluptates eius praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, adipisci nam ratione, quidem sunt veniam voluptatibus praesentium obcaecati sed a illum eum quibusdam, fugit soluta harum illo quaerat. Ab, officia?</p>
+    <button id="myBtn" onclick=changestyling()>Click me</button>
+    <script>
+        let para = document.getElementsByTagName("p")
+        function changestyling(){
+                para[0].style.color = "blue"
+                para[1].style.backgroundColor = "red";
+                para[2].style.fontWeight = "700";
+                para[3].style.fontSize ="22px";
+                for(let i=0;i< para.length;i++){
+                    para[i].style.fonsize="30px";
+                }
+            
+        }
+    </script>
+</body>
+</html>
